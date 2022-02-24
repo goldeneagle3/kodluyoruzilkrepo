@@ -12,6 +12,12 @@ Bu repo [Kodluyoru<](https://www.kodluyoruz.org) ile oluşturduğum ilk repo. Bi
 git clone https://github.com/goldeneagle3/kodluyoruzilkrepo.git
 ```
 
+
+## Answers For Data Struvtures and Algorithms
+
+You can find the ansers in the js files named for the answers it relates to
+
+
 ## Usage
 
 Clonladıktan sonra VSCode programını açın.
