@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoru<](https://www.kodluyoruz.org) ile oluşturduğum ilk repo. Bir adet README and index.html dosyaları içeriyor.
 
-[Resim](https://www.w3schools.com/bootstrap/paris.jpg)
+![Resim](https://www.w3schools.com/bootstrap/paris.jpg)
 
 # Installation
 
