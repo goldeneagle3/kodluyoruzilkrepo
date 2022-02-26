@@ -1,35 +1,30 @@
-// TASK 1 
-let taskOneQuery = `
+--  TASK 1 
 create table employee (
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(50) NOT NULL,
 	birthday DATE,
 	email VARCHAR(100)
 )
-`
 
-// TASK TWO
-let taskTwoQuery = `
+
+--  TASK TWO
 insert into employee (name, email, birthday) values ('Edvard Ross', 'eross0@technorati.com', null);
-// -------- 50 query like this -----------
+ -------- 50 query like this -----------
 
-`
 
-//  Task THREE
-let taskThreeQuery = `
 
+  -- Task THREE
 update employee 
 set email = 'Ensar',
   name = 'Ezber',
   birthday = '1992-10-10'
 where id = 12
-returning *;
+RETURN *;
 
 // ------------ 5 update query like this -----------
-`
 
-//  Task FOUR
-let taskFourQuery = `
+
+  -- Task FOUR
 
 delete employee 
 where id = 11;

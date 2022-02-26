@@ -1,5 +1,4 @@
-//  TASK ONE
-let taskOneQuery = `
+  -- TASK ONE
 (
   SELECT first_name   
   FROM actor
@@ -9,10 +8,9 @@ UNION
   SELECT first_name  
   FROM customer 
 )
-`
 
-//  TASK TWO
-let taskTwoQuery = `
+
+  -- TASK TWO
 (
   SELECT first_name   
   FROM actor
@@ -22,10 +20,9 @@ INTERSECT
   SELECT first_name  
   FROM customer 
 )
-`
 
-//  TASK THREE
-let taskThreeQuery = `
+
+  -- TASK THREE
 (
   SELECT first_name   
   FROM actor
@@ -35,13 +32,9 @@ EXCEPT
   SELECT first_name  
   FROM customer 
 )
-`
-
-//  TASK FOUR
 
 
-let taskFourQuery = `
-
+  -- TASK FOUR
 //  -------------- First -------------
 (
   SELECT first_name   
@@ -74,4 +67,3 @@ EXCEPT
   SELECT first_name  
   FROM customer 
 )
-`
